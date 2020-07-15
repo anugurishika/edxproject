@@ -1,0 +1,63 @@
+
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .rightcorner
+            {
+                text-align:right;
+                
+            }
+            img
+            {
+                width:400px;
+                height: 200px;
+                position: center;
+                top:500px;
+
+            }
+            a
+            {
+                padding:20px;
+                color: black;
+            }
+            
+            span
+            {
+                margin-left: 75px;
+                text-align: left;
+                
+            }
+            
+            .search
+            { 
+            	
+            	
+                width:400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rightcorner">
+            <a href="index.html">Google Search</a>
+            <a href="imagesearch.html">Image Search</a>
+        </div>
+    <center><img src="googleadvanced.png" ></center>
+        <form action="https://google.com/search">
+            
+            <span class="label label-default">all these words:</span>
+            <input type="text"  class="search" name="q" ></input><br><br>
+            <span class="label label-default">this exact word/phrase:</span>
+            <input type="text"  class="search" name="as_epq" ></input><br><br>
+            <span class="label label-default">any of these words:</span>
+            <input type="text"  class="search" name="as_oq" ></input><br><br>
+            <span class="label label-default">none of these words:</span>
+            <input type="text"  class="search" name="as_eq" ></input>
+            <br><br>
+            <center><input type="submit"  class="btn btn-primary" value="Advanced Search"></input></center>
+        </form>
+       
+
+</html>

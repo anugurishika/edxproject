@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style>
+            .rightcorner
+            {
+                text-align:right;
+                
+            }
+            img
+            {
+                width:500px;
+                height: 200px;
+                position: center;
+                top:500px;
+
+            }
+            a
+            {
+                padding:20px;
+                color: black;
+            }
+            
+            form
+            {
+                
+                text-align: center;
+            }
+            .search
+            {
+                border-radius: 1rem;
+                width:500px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="rightcorner">
+            <a href="index.html">Google Search</a>
+            <a href="advancedsearch.html">Advanced Search</a>
+        </div>
+    <center><img src="googleimage.png" align="center" />
+        <form action="https://google.com/search?&tbm=isch">
+            <input type="hidden" name="tbm" value="isch" >
+            <input type="text"  class="search" name="q" placeholder="Search Google or type a URL"><br><br>
+            <input type="submit"  class="btn btn-light" value="Google Search">
+            
+        </form>
+        </center>
+
+</html>
